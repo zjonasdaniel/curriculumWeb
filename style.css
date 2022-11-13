@@ -1,0 +1,172 @@
+body {
+  background-color: rgb(230, 230, 230);
+}
+.cntPadre {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.7rem;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.cntCv {
+  background-color: rgb(41, 61, 72);
+  width: 50%;
+  height: 100%;
+  display: flex;
+  box-shadow: 5px 8px 16px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 8px 16px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 8px 16px -3px rgba(0, 0, 0, 0.75);
+}
+.cntCvIz {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(228, 228, 228);
+  padding: 20px;
+}
+.cntCvIzContactar a{
+  color: rgb(140, 140, 248);
+}
+.cntCvIzFoto img {
+  width: 100%;
+  height: auto;
+}
+.cntCvIzContactar,
+.cntCvIzAptitudesPrincipales,
+.cntCvIzCertificaciones {
+  width: 100%;
+  height: 100%;
+}
+.cntCvIzContactar p,
+.cntCvIzAptitudesPrincipales p,
+.cntCvIzCertificaciones p {
+  width: 100%;
+  height: 100%;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+.cntCvDr {
+  width: 70%;
+  height: 100%;
+  background-color: white;
+  padding: 20px;
+  font-size: .9rem;
+}
+.cntCvDrTitulo h1 {
+  margin-bottom: 0px;
+}
+.cntCvDrTitulo h2 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-weight: 600;
+}
+.cntCvDrTitulo p {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: rgb(51, 51, 51);
+}
+.cntCvDrExperiencia h3 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.cntCvDrExperiencia p {
+  margin-top: 2px;
+  margin-bottom: 15px;
+}
+.cntCvDrExperiencia,
+.cntCvDrEducacion {
+  border-top: 1px solid rgb(97, 97, 97);
+}
+.cntCvDrEducacion p {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.cntCvDrEducacion h3 {
+  margin-bottom: 2px;
+}
+.formularioCont {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.form {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  box-shadow: 5px 8px 16px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px 8px 16px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px 8px 16px -3px rgba(0, 0, 0, 0.75);
+}
+.formularioTitle {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(41, 61, 72);
+  color: white;
+}
+.formularioName {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.formulaioAsunto {
+  width: 80%;
+  height: 100%;
+  margin-bottom: 10px;
+}
+.formulaioTextArea {
+  width: 80%;
+  height: 100px;
+  margin-bottom: 10px;
+  resize: none;
+}
+.formulaioBoton {
+  margin-bottom: 20px;
+}
+.mail {
+  display: none;
+}
+@media only screen and (max-width:600px){
+    .cntCv{
+        width: 90%;
+    }
+    .cntCvIz {
+        font-size: .55rem;
+      }
+      .form{
+        width: 90%;
+      }
+}
+@media only screen and (min-width: 1900px) {
+  .cntCvDr {
+    font-size: 1.5rem;
+  }
+  .cntCvIz {
+    font-size: 1.3rem;
+  }
+  .form,
+  .form input,
+  .form textarea {
+    font-size: 1.3rem;
+  }
+}
